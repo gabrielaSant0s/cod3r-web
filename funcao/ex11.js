@@ -1,12 +1,12 @@
 const bissexto = (ano) =>{
     if (ano%400 === 0){
-        return "Bissexto"
+        return true
     }else if (ano%100 === 0){
-        return "Não bissexto"
+        return false
     }else if(ano%4===0){
-        return "Bissexto"
+        return true
     }else{
-        return "Não bissexto"
+        return false
     }
 }
 
